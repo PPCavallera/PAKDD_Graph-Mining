@@ -1,0 +1,25 @@
+Source : 
+Node dataset :
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MR5IJN 
+Edges dataset
+https://dataverse.lib.virginia.edu/dataset.xhtml?persistentId=doi:10.18130/V3/YQLJ5W 
+
+After transformation : 
+
+2020:
+This dataset is composed by 95 graphs.
+95 "attributes" files comprising 232 nodes representing cities in China and their attributes.
+95 "edges" files corresponding to links between cities. An average of 13,000 links per file.
+The attributes are the following in order: Evolution of the number of new cases, the number of deaths,
+and number of recovered patients (-1: Decrease compared to previous time;
+0: same number compared with previous time;
+1: increase over previous time)
+as well as the city size category (0: city with fewer than 500,000 inhabitants; 
+1: city with 500,000 to 1 million inhabitants; 
+2: city with 1 million to 5 million inhabitants; 
+3: cities between 5 and 10 million inhabitants;  
+4: city with more than 10 million inhabitants).
+The "attributes" files are the aggregation of 4 consecutive days on the evolution of the disease. 
+The links are all the flows for these 4 days.
+
+

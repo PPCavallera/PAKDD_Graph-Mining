@@ -1,0 +1,4 @@
+0 NbCancel
+1 NbDiverted
+2 DelayDeparture
+3 DelayLanding

@@ -757,8 +757,8 @@ int main()
         Graph g;
         stringstream stmp2;
         stringstream stmp;
-        stmp2 << "CovidChina/2022AT01/2022concat3dDead/T" << std::to_string(i) << "_Covid_attributes.txt";
-        stmp << "CovidChina/Processed_Edges_2022/T" << std::to_string(i) << "_edges_Covid.txt";
+        stmp2 << "./data/covid_china/data/attributes/T" << std::to_string(i) << "attributes";
+        stmp << "./data/covid_china/data/attributes/T" << std::to_string(i) << "edges";
         g = read_graph(stmp.str(), stmp2.str(), {0,1,2});
         gt.push_back(g);
     }
