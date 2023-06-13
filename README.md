@@ -17,7 +17,7 @@ real-world datasets show the interest of our approach and its scalability.
 
 We run two experiments with the ffollowing three objectives : 
 
-+ to evaluate the efficiency of our proposed algorithm to mine the datasets by comparing its performances in terms of number attributes, attributes values and size of size-1 patterns
++ to evaluate the efficiency of our proposed algorithm to mine the datasets by comparing its performances in terms of the number of attributes, the number of timestamps and the number of edges and vertices
 + to evaluate the scalability of our proposed algorithm by comparing its  performances on different numbers of temporal graphs
 + to evaluate the accuracy and pertinence of the results
 
